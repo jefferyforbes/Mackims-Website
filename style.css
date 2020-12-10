@@ -68,8 +68,6 @@ header nav {
     text-shadow: #000000;
 }
 
-.carousel-inner {}
-
 .carousel-item {
     max-width: auto;
     height: auto;
@@ -98,7 +96,7 @@ header nav {
 
 .address,
 .openings,
-.number li {
+.number h1 {
     font-size: 1.1rem;
 }
 
