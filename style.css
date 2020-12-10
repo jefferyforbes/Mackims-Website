@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500;600;700&display=swap');
 * {
     margin: 0;
-    padding: 0px;
+    padding: 0;
     font-family: Lemonada, 'Roboto', sans-serif, 'Times New Roman', Times, serif;
     box-sizing: border-box;
     font-size: 1.2rem;
-    color: rgb(228, 226, 216);
+    color: rgb(233, 231, 224);
 }
 
 body {
     background-color: rgb(71, 69, 69);
-    width: 100%;
+    width: 90%;
     margin-left: 4rem;
     margin-right: 4rem;
 }
@@ -63,7 +63,8 @@ header nav {
     justify-content: space-around;
     text-align: center;
     font-size: 3rem;
-    color: rgb(231, 233, 236);
+    background-color: rgb(58, 56, 56);
+    color: rgb(238, 241, 245);
     text-shadow: #000000;
 }
 
@@ -115,6 +116,10 @@ header nav {
 
 @media screen and (max-width: 620px) {}
 
-@media screen and (max-width: 520px) {}
+@media screen and (max-width: 520px) {
+    * {
+        font-size: 1rem;
+    }
+}
 
 @media screen and (max-width: 420px) {}
